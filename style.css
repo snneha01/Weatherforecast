@@ -1,0 +1,71 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHNreXxlbnwwfHwwfHx8MA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#heading{
+    text-align: center;
+}
+#logo{
+    border: 10px solid lightblue;
+    border-radius: 50px;
+}
+#unique{
+    font-size: 5em;
+    color: cornflowerblue;
+}
+#line{
+    border: 0.1px solid blue;
+}
+#info{
+    font-size: 40px;
+    display: flex;
+}
+nav a{
+    padding: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    color: white;
+}
+#section{
+    font-size: 50px;
+    color: cornflowerblue;
+    opacity: 90%;
+}
+.detail{
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 30px;
+    color: cornflowerblue;
+}
+footer {
+    background-color: cornflowerblue;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(to bottom, #548df6, #2c5976);
+    background-size: 100% 200px;
+    background-position: 0% 100%;
+    padding: 10px;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+main{
+    padding-bottom: 90px;
+}
+.text{
+    color: #548df6;
+    line-height: 30px;
+}
